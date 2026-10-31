@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpeg" alt="Ágora Tech" width="360" />
+  <img src="Logo tecnológico de ÁGORA TECH.png" alt="Ágora Tech" width="360" />
 </p>
 
 <h1 align="center">ÁGORA TECH</h1>
