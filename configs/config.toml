@@ -1,0 +1,49 @@
+[paths]
+raw_data_dir = "../Datos para intregrar BD"
+silver_dir = "data/silver"
+gold_dir = "data/gold"
+geospatial_dir = "data/geospatial"
+outputs_dir = "outputs"
+figures_dir = "outputs/figures"
+tables_dir = "outputs/tables"
+maps_dir = "outputs/maps"
+deliverables_dir = "outputs/entrega_final"
+
+[elections]
+years = [2009, 2012, 2015, 2018, 2021, 2024]
+intermedia_years = [2009, 2015, 2021]
+presidencial_years = [2012, 2018, 2024]
+target_intermedia = 2027
+target_presidencial = 2030
+
+[privacy]
+min_ln_cell_threshold = 15
+
+[risk_index]
+# Pesos del Indice Compuesto de Riesgo Territorial:
+# w_level: nivel proyectado de abstencion 2027
+# w_trend: deterioro / aceleracion en ciclos recientes
+# w_volume: masa critica de abstencionistas esperados (log LN * abstencion)
+w_level = 0.55
+w_trend = 0.25
+w_volume = 0.20
+
+# Percentiles para el Semaforo Territorial (sobre score compuesto nacional)
+p_moderado = 0.40
+p_alto = 0.70
+p_critico = 0.88
+
+[scenarios]
+# Fraccion de municipios/secciones de mayor retorno priorizados en el Portafolio Optimo INE
+budget_coverage_fraction = 0.15
+
+# Reduccion relativa sobre la brecha juvenil (18-29 vs adultos 40-59) en zonas intervenidas
+youth_gap_reduction_conservative = 0.10
+youth_gap_reduction_moderate = 0.20
+youth_gap_reduction_optimistic = 0.30
+
+# Reduccion relativa de la fatiga en eleccion intermedia para zonas rurales/mixtas intervenidas
+rural_fatigue_reduction_conservative = 0.12
+rural_fatigue_reduction_moderate = 0.22
+rural_fatigue_reduction_optimistic = 0.32
+

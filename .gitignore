@@ -1,0 +1,21 @@
+# Python bytecode & build artifacts
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Large intermediate data (Silver Parquet cache)
+data/silver/
+data/raw/
+
+# IDE & OS
+.ipynb_checkpoints/
+.DS_Store
+.ruff_cache/
+.pytest_cache/
+

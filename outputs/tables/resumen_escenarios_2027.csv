@@ -1,0 +1,7 @@
+escenario,ln_proyectada_2027,tasa_abstencion_nacional_pct,tasa_participacion_nacional_pct,abstencionistas_esperados,votantes_esperados,votos_adicionales_recuperados,municipios_riesgo_critico,municipios_riesgo_alto,municipios_riesgo_moderado,municipios_riesgo_bajo
+0. Línea Base (Sin Intervención 2027),103141753,44.49,55.51,45885912,57255841,0,298,445,743,991
+1. Intervención Focalizada Juventudes (18-29),103141753,43.35,56.65,44710866,58430887,1175046,210,384,892,991
+2. Brigadas Comunitarias Rurales y Mixtas,103141753,43.71,56.29,45088357,58053396,797555,173,342,971,991
+3A. Portafolio Óptimo INE (Banda Conservadora),103141753,42.66,57.34,44000352,59141401,1885560,147,464,817,1049
+3B. Portafolio Óptimo INE (Escenario Central Con Intervención),103141753,41.68,58.32,42985021,60156732,2900891,90,433,873,1081
+3C. Portafolio Óptimo INE (Banda Optimista),103141753,40.69,59.31,41969721,61172032,3916191,58,364,931,1124

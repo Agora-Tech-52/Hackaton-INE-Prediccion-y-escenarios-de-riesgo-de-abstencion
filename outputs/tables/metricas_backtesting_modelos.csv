@@ -1,0 +1,9 @@
+corte_validacion,modelo,MAE_pp,MAE_ponderado_LN_pp,RMSE_pp,R2_ponderado,Spearman_rho,Precision_Top20_pct
+Backtest Intermedia 2021 (Entrena <=2018),1. Baseline Homólogo (t-6),13.392,9.129,17.689,-0.3546,0.4206,39.27
+Backtest Intermedia 2021 (Entrena <=2018),2. Regresión Logit Regularizada (Principal),10.332,7.218,13.103,0.1791,0.5389,39.68
+Backtest Intermedia 2021 (Entrena <=2018),3. HistGradientBoosting Logit (Benchmark ML),8.609,6.679,11.188,0.2989,0.6635,48.38
+Backtest Intermedia 2021 (Entrena <=2018),4. Ensamble Híbrido INE (70% Lineal + 30% GBDT),9.616,6.896,12.205,0.2525,0.5904,43.32
+Backtest Presidencial 2024 (Entrena <=2021),1. Baseline Homólogo (t-6),6.62,4.375,9.084,0.3603,0.7583,64.31
+Backtest Presidencial 2024 (Entrena <=2021),2. Regresión Logit Regularizada (Principal),6.982,4.108,9.235,0.4444,0.7814,64.92
+Backtest Presidencial 2024 (Entrena <=2021),3. HistGradientBoosting Logit (Benchmark ML),6.675,4.852,8.814,0.3703,0.8021,61.9
+Backtest Presidencial 2024 (Entrena <=2021),4. Ensamble Híbrido INE (70% Lineal + 30% GBDT),6.626,4.232,8.751,0.4579,0.8032,66.53

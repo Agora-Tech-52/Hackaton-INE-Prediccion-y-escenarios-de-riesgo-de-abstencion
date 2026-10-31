@@ -1,0 +1,16 @@
+variable,descripcion,coef_logit_estandarizado,efecto_marginal_1sd_pp,coef_logit_original,importancia_permutacion_gbdt
+BRECHA_JUVENIL_ABST,Brecha Local de Abstención Juvenil (18-29 vs 30-59),0.2766,6.736,4.2966,0.4306
+ABST_LAG2_HOMOLOGO_6A,Abstención Elección Homóloga Previa (t-6),0.2575,6.271,1.6666,0.1949
+ABST_LAG1_3A,Abstención Elección Inmediata Anterior (t-3),0.1742,4.242,1.2183,0.2704
+PROP_JOVENES_18_29,Proporción de Jóvenes 18-29 años en LN,-0.1388,-3.381,-3.0701,0.0399
+PROP_MAYORES_60_MAS,Proporción Adultos Mayores 60+ en LN,-0.1381,-3.364,-2.2451,0.0419
+ES_INTERMEDIA,Efecto Elección Intermedia (vs Presidencial),0.1221,2.973,0.2442,0.1201
+BRECHA_GENERO_ABST,Brecha de Abstención por Sexo (Hombres - Mujeres),-0.0679,-1.654,-1.5379,0.1748
+CIRC_1,1ª Circunscripción (Noroeste),0.0549,1.336,0.1569,0.0059
+CIRC_3,3ª Circunscripción (Sur / Golfo-Sureste),-0.0468,-1.14,-0.0947,0.0024
+PROP_PRIMER_VOTO_18_19,Proporción Primer Voto 18-19 años en LN,-0.0461,-1.123,-5.6618,0.0122
+CIRC_4,4ª Circunscripción (Centro / Pacífico Sur),-0.0363,-0.884,-0.0908,0.006
+PROP_URBANA,Grado de Urbanización (% LN Urbana),0.0353,0.86,0.1061,0.0149
+PROP_RURAL_MIXTA,Proporción LN en Secciones Rurales y Mixtas,-0.0333,-0.811,-0.1,0.002
+CIRC_2,2ª Circunscripción (Noreste / Bajío),0.0213,0.518,0.0646,0.0012
+CRECIMIENTO_LN_3A,Tasa de Crecimiento del Padrón (3 años),-0.0113,-0.275,-0.0292,0.0048

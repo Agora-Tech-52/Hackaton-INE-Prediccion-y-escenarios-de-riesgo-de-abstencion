@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ine-abstencion"
+version = "1.0.0"
+description = "Reto 2 Hackaton INE 2026: Prediccion y escenarios de riesgo de abstencion electoral (CCPC 2009-2024)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars>=1.0.0",
+    "pyarrow>=17.0.0",
+    "duckdb>=1.0.0",
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    "scipy>=1.13.0",
+    "scikit-learn>=1.5.0",
+    "statsmodels>=0.14.0",
+    "matplotlib>=3.9.0",
+    "seaborn>=0.13.2",
+    "geopandas>=1.0.0",
+    "pyogrio>=0.9.0",
+    "shapely>=2.0.0",
+    "folium>=0.17.0",
+    "openpyxl>=3.1.0",
+    "rich>=13.7.0",
+    "reportlab>=4.2.0",
+]
+
+[project.scripts]
+ine-riesgo = "ine_abstencion.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ine_abstencion"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
